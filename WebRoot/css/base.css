@@ -1,0 +1,136 @@
+* {
+	margin: 0px;
+}
+
+.wrap {
+	width: 100%;
+}
+
+.top {
+	width: 100%;
+	z-index: 100;
+}
+
+.top a {
+	text-decoration: none;
+}
+
+.topUp {
+	width: 100%;
+	height: 80px;
+}
+
+.topUp span {
+	color: white;
+	font-size: 2em;
+	line-height: 80px;
+	font-weight: bold;
+}
+
+.topDown {
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+}
+
+.topMenu {
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	margin-top: 5px;
+	background: #eeeeee;
+	float: left;
+	margin-right: 5px;
+	list-style: none;
+	line-height: 30px;
+	z-index: 100;
+	@import!
+}
+
+.topMenu a {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.topMenu ul {
+	background-color: #eeeeee;
+	display: block;
+	padding: 0px;
+	list-style: none;
+	width: 100px;
+	text-align: left;
+	position: absolute;
+	z-index: 100;
+}
+
+.topMenu ul a {
+	font-weight: normal;
+}
+
+#skinSelect {
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	height: 30px;
+	width: 250px;
+	border-radius: 10px;
+	background: white;
+}
+
+#skinSelect ul li {
+	list-style: none;
+	width: 15px;
+	height: 15px;
+	float: left;
+	background-image: url("../images/theme.gif");
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.skin_0 {
+	background-position: 0px 0px;
+}
+
+.skin_1 {
+	background-position: -20px 0px;
+}
+
+.skin_2 {
+	background-position: -40px 0px;
+}
+
+.skin_3 {
+	background-position: -60px 0px;
+}
+
+.skin_4 {
+	background-position: -80px 0px;
+}
+
+.skin_5 {
+	background-position: -100px 0px;
+}
+
+.skin_0.selected {
+	background-position: 0px 15px;
+}
+
+.skin_1.selected {
+	background-position: -20px 15px;
+}
+
+.skin_2.selected {
+	background-position: -40px 15px;
+}
+
+.skin_3.selected {
+	background-position: -60px 15px;
+}
+
+.skin_4.selected {
+	background-position: -80px 15px;
+}
+
+.skin_5.selected {
+	background-position: -100px 15px;
+}

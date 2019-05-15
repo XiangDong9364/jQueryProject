@@ -1,0 +1,58 @@
+  div.zoomdiv {
+	z-index:	999;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	width                   : 200px;
+	height                  : 200px;
+	background: #ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align: center;
+	overflow: hidden;
+}
+div.jqZoomPup {
+	z-index                 : 999;
+	visibility              : hidden;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	width                   : 50px;
+	height                  : 50px;
+	border: 1px solid #aaa;
+	background: #ffffff url(../images/zoomlens.gif) 50% top  no-repeat;;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}
+
+.global_module h3 { 
+	height:26px; 
+/* 	background:#3B5998; */
+	color:#FFF; 
+	line-height:26px; 
+	text-indent:6px;
+}
+.pro_detail_left { 
+	width:380px;
+	float:left;
+	overflow:hidden;
+}
+.pro_detail_left .jqzoom{
+	border:1px solid #BBB;
+	float:left;
+	position:relative;
+	padding:0px;
+	cursor:pointer;
+}
+.pro_detail_left .fs {
+	width:300px;
+	height:300px; 
+}
+.pro_detail { 
+	width:780px; 
+	height:auto;
+	overflow:hidden; 
+	padding:10px;
+}

@@ -1,0 +1,208 @@
+* {
+	margin: 0px;
+}
+
+.content {
+	width: 100%;
+	height: 750px;
+	margin-top: 10px;
+}
+
+.contentL {
+	width: 20%;
+	height: 450px;
+	z-index: 90;
+}
+
+.contentLT {
+	width: 100%;
+	height: 155px;
+	overflow: hidden;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 10px solid #e7e7e7;
+}
+
+.contentLT h3 {
+	color: white;
+	height: 30px;
+	line-height: 30px;
+}
+
+.contentLT img {
+	float: right;
+	margin: 10px 0px;
+	margin-right: 10px;
+	width: 8px;
+	cursor: pointer;
+}
+
+.contentLT ul {
+	padding-left: 20px;
+}
+
+.contentLT ul li {
+	list-style: none;
+	margin-top: 8px;
+}
+
+.contentLT a {
+	text-decoration: none;
+}
+
+.contentLD {
+	width: 100%;
+	height: 365px;
+	overflow: hidden;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 10px solid #e7e7e7;
+	border-right: 1px solid gray;
+}
+
+.contentLD h3 {
+	color: white;
+	height: 30px;
+	line-height: 30px;
+}
+
+.contentLD img {
+	float: right;
+	margin: 10px 0px;
+	margin-right: 10px;
+	width: 8px;
+	cursor: pointer;
+}
+
+.contentLD a {
+	text-decoration: none;
+}
+
+.product {
+	list-style-image: url("../images/treeview-expanded.gif");
+	margin-top: 8px;
+}
+
+.product li {
+	list-style-image: url("../images/treeview-item.gif");
+	margin-top: 5px;
+}
+
+.contentR {
+	width: 78%;
+	height: 500px;
+	border: 1px solid blue;
+	margin-left: 10px;
+	position: relative;
+	top: -450px;
+	left: 325px;
+}
+
+.contentRT {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+.slider, .num {
+	position: absolute;
+}
+
+.slider {
+	padding: 0px;
+	width: 6000px;
+}
+
+.num {
+	right: 5px;
+	bottom: 5px;
+}
+
+.slider li {
+	list-style: none;
+	display: inline;
+	float: left;
+}
+
+.slider img {
+	width: 1200px;
+	height: 200px;
+}
+
+.num li {
+	float: left;
+	list-style: none;
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.num li.selected {
+	float: left;
+	list-style: none;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.contentRD {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.contentRD h3 {
+	color: white;
+	height: 30px;
+	line-height: 30px;
+}
+
+.contentRD a {
+	text-decoration: none;
+}
+
+.contentRD table {
+	width: 80%;
+	height: 280px;
+	text-align: center;
+}
+
+.contentRD td {
+	width: 100px;
+	padding: 0px 8px;
+}
+
+.turnLR {
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.span1 {
+	opacity: 0;
+}
+
+.spanOver {
+	background: url("../images/zoom.gif") no-repeat 50% 50%;
+	opacity: 0.5; /*透明度*/
+}
+
+.bottom{
+	position:absolute;
+	top:750px;
+	width: 100%;
+	height:120px;
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}

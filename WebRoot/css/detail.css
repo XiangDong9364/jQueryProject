@@ -1,0 +1,106 @@
+* {
+	margin: 0px;
+}
+
+.content {
+	margin-top: 10px;
+	border: 1px solid gray;
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+}
+
+.contentL {
+	width: 50%;
+}
+
+.content h3 {
+	color: white;
+	height: 30px;
+	line-height: 30px;
+}
+
+.color_change ul{
+	margin-top: 5px;
+	margin-left: -68px;
+}
+
+.color_change li {
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+
+.imgList li {
+	list-style: none;
+	float: left;
+	margin: 10px;
+}
+
+.imgList {
+	margin-top: 50px;
+}
+
+.color_change {
+	margin-left: 50px;
+}
+
+.tabControl {
+	float: left;
+	background-color: #eeeeee;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid gray;
+
+}
+
+.tabContent {
+	width: 50%;
+	clear: left;
+	display: none;
+	border: 1px solid gray;
+	clear: left;
+}
+
+.selectedTabContent {
+	display: block;
+}
+
+.switch {
+	width: 90%;
+	position: absolute;
+	top: 700px;
+	margin-left: 10px;
+}
+
+.contentR{
+	position:absolute;
+	top:180px;
+	right:0px;
+	width: 50%;
+}
+
+.size li{
+	float: left;
+	list-style: none;
+	padding: 5px 20px;
+	margin: 5px 10px;
+	border: 1px solid gray;
+}
+
+#star {
+	background-image: url("../images/star-matrix.gif");
+	background-repeat: no-repeat;
+	height: 16px;
+	background-position: 0px 0px;
+}
+
+.bottom{
+	position:absolute;
+	top:900px;
+	width: 100%;
+	height:120px;
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}
